@@ -655,6 +655,19 @@ section,
   padding-bottom: 2px;
   transition: color 0.3s ease-in-out;
 }
+/* Custom Credly-style green button */
+.btn-credly-green {
+  background-color: #0d6a6f;   /* teal/green tone */
+  border-color: #0d6a6f;
+  color: #ffffff;
+}
+
+.btn-credly-green:hover,
+.btn-credly-green:focus {
+  background-color: #0a555a;
+  border-color: #0a555a;
+  color: #ffffff;
+}
 
 .hero .link-underline:after {
   content: "";
